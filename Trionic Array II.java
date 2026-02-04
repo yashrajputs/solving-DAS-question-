@@ -3,7 +3,12 @@
 //Approach (Recursion + Memoization)
 //T.C : O(n)
 //S.C : O(n)
-
+                               / \trend -->2
+                              /   \     /
+                            /      \   / trend --->3
+                          /         \/                    
+                  trend --->1 
+                                   
 class Solution {
     int n =0;
     long[][] memo;
